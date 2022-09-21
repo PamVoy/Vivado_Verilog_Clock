@@ -8,9 +8,7 @@ Digital clock with functions :
 3.alarm clock
 
 
-tutorial video:
-
-https://youtu.be/awtxCmPH4dM
+tutorial video: https://youtu.be/awtxCmPH4dM
 
 
 device : None / just for simulation
