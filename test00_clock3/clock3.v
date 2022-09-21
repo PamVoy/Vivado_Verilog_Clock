@@ -28,11 +28,11 @@ module clock(
     input load2,          // load min
     input load3,          // load hour  
     input [5:0] data1,    // load sec data   
-	input [5:0] data2,    // load min data
-	input [5:0] data3,    // load hour data
+    input [5:0] data2,    // load min data
+    input [5:0] data3,    // load hour data
     output reg [5:0] sec, // 0~59
-	output reg [5:0] min, // 0~59
-	output reg [4:0] hour // 0~23
+    output reg [5:0] min, // 0~59
+    output reg [4:0] hour // 0~23
 );
 	 
      always @ (posedge clock)
